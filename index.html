@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CV#3.Семантическая верстка</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<main>
+  
+  <nav>
+    <ul class="top-menu">
+      <li><a href="#aboutme"> Про меня</a></li>
+      <li><a href="#skills">Перечень навыков</a></li>
+      <li><a href="#code-example">Пример кода</a></li>
+      <li><a href="#study">Образование</a></li>
+    </ul>
+  </nav>
+  <header>
+    <img id="avatar" src="images/photo_2024-07-07_11-42-26.jpg" alt="avatar"></img>
+    <h1>Serov Maksim</h1>
+    <h2>Никто и звать его никак</h2>
+  </header>
+
+  <article>
+
+  <section id="aboutme">
+    <h2>Про себя</h2>
+    <pre>=5%: ингибитор коррозии
+      циперметрин - 0,2%
+      перметрин - 0,2%
+      тетраметрин - 0,2%
+      диметилсульфоксид, пиперонилбутоксид - 1,0%
+      >30%: алифатические углеводороды (пропан, бутан, изобутан)
+      спирт изопропиловый</pre>
+  </section>
+  <section id="skills">
+    <h2>Перечень навыков</h2>
+    <ul class="skill">
+      <li>3D моделирование</li>
+      <li>с++</li>
+      <li>Photoshop</li>
+     </ul>  
+  </section>
+  <section id="code-example">
+    <h2>Пример кода</h2>
+    <br>
+    <pre class="code">
+      <code>
+      int main(){
+        int a[5] = {5, 2, 1, 8, 7};
+        std::sort(a, a+5, std::less<int>());
+        int i;
+        for(i = 0; i != 5; ++i){
+            std::cout << a[i] << " ";
+        }
+        return 0;
+    }
+  </code>
+   </pre>
+  </section>
+  <section id="study">
+    <h2>Образование и уровень английского</h2>
+    <ul class="skill">
+      <li>Гарвард</li>
+      <li>MIT</li>
+      <li>English - native</li>
+     </ul>
+  </section>
+  </article>
+  <br>
+  <aside>
+   
+  </aside>
+</main>
+
+<footer>
+  <p></p>
+  <img class="image-size" src="images/rs-school-logo.svg" alt="logo"></img>
+  <p><a class="links" href="https://rs.school/courses/javascript-ru">Ссылка на курс - https://rs.school/courses/javascript-ru</a></p>
+  
+  
+  <h3 style="text-align:center;">Контакты</h3>
+  <table class="table-setting">
+
+    <tr><td class="img-block"><img src="images/discord-icon-official-arma-koth-host-11.png" alt="discord img" width="48" height="48"></td><td class="table-text-position"><h4 class="icon-title">Дискорд:</h4><p class="description">serovmaksim</p></td></tr>
+    <tr><td class="img-block"><img style="padding: 5px 9px 5px 0px;" src="images/Telegram-1536x886.png" alt="tg img" width="55" height="36"></td><td class="table-text-position"><h4 class="icon-title">Телеграмм:</h4><p class="description">@Foguclittp</p></td></tr>
+    <tr><td class="img-block"><img src="images/gas-kvas-com-p-znachok-dzhimeil-na-prozrachnom-fone-5.png" alt="gmail img" width="48" height="48"></td><td class="table-text-position"><h4 class="icon-title"></h4></td><td class="table-text-position"><h4 class="icon-title">Почта:</h4><p class="description">serovmaksim265@gmail.com</p></td></tr>
+    <tr><td class="img-block"><img src="images/i.webp" alt="Github img" width="48" height="48"></td><td class="table-text-position"><h4 class="icon-title"></h4></td><td class="table-text-position"><h4 class="icon-title">Гитхаб:</h4><p class="description"><a class="links" href="https://github.com/error-001F">Гитхаб - https://github.com/error-001F</a></p></td></tr>
+    </table>
+</footer>
+
+</html>
