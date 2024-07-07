@@ -1,3 +1,9 @@
-p{
-    font-size: 25px;
+nav{
+    line-height: 15px;
+}
+.image-size{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
 }
