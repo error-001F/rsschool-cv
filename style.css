@@ -1,0 +1,113 @@
+html{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    justify-content: center;
+    text-align: center;
+    background-color: #7aceb2;
+    width: 100%;
+}
+main{
+    max-width: 960px;
+	margin: auto;
+}
+nav{
+    line-height: 1px;
+}
+h1{
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: oblique;
+}
+.image-size{
+    height: 70px;
+    width: 200px;
+    flex-shrink: 0;
+}
+#avatar{
+    height: 200px;
+    flex-shrink: 0;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+section {
+	padding-bottom: 50px;
+}
+.links{
+    font-size: 10px;
+    text-decoration: none;
+}
+button {
+	color: #fff;
+	background-color: #e478ff;
+	border: dotted;
+	height: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+	text-decoration: none;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 20px Courier New, sans-serif;
+	padding: 15px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0px 3px;
+    justify-content: space-between;
+    background-color: #71e7ff;
+}
+
+.top-menu a {
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table-setting {
+    width: 650px;
+    margin: 0 20%;
+  }
+  .img-block {
+    color: #e20963;
+    width: 48px;
+    height: 48px;
+    margin: 20px 10px 0px 5px;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    border: 2px solid #e20963;
+    float: left;
+  }
+  .table-text-position {
+    float: left;
+  }
+  .aio-icon-title {
+    font-size: 16px;
+    color: #e20963;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
